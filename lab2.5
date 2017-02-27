@@ -1,0 +1,11 @@
+<script>
+n= Number(prompt("Өлшемі"," "));
+x= Number(prompt("Қай элементті қосқыңыз келеді", " "));
+y= Number(prompt("Қай орынға орналастырғыңыз келеді?"," "));
+a= []
+for (var i=0;i<n;i++){
+a.push(Math.round(Math.random()*10));
+}
+a.splice(y,0,x);
+alert(a)
+</script>
